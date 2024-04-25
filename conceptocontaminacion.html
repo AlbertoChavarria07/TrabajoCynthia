@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
         <link href="https://fonts.cdnfonts.com/css/la-unica" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/the-bold-font" rel="stylesheet">
     <title>Concepto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
       .contenido .texto-presentacion {
@@ -42,7 +43,7 @@
             position:absolute;
             width: 50%;
             height: 50%;
-            top: 45%; 
+            top: 60%; 
             border-left: 700px solid transparent;
             border-right: 450px solid transparent;
             background: url('img/conta02.jpg') no-repeat center center/cover;
@@ -50,35 +51,31 @@
         
 </style>
 <body>
-    <div style="margin: 24px;">
-        <nav class="navbar navbar-light"
-        style="background-color:rgb(0, 0, 0)">
-        <div class="container">
-            <a class="navbar-brand" href="index.html" style="color: rgb(183, 0, 255);font-family: 'La unica', sans-serif;">Inicio</a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="nav navbar-nav">
-                <li class="nav-item dropdown">
-                    <a style="color:rgb(11, 255, 23); font-family: 'The Bold Font', sans-serif;"class="dropdown-item" 
-                    href="index.html">REGRESAR</a><br>  
-                </li>
-                <li class="nav-item dropdown">
-                    <a style="color:rgb(11, 255, 23);font-family: 'The Bold Font', sans-serif;"class="dropdown-item" 
-                    href="causascontaminacion.html">SIGUIENTE</a><br>  
-                </li>
-                </div>
-            </ul>
+    <header>
+        <div class="back">
+          <div class="menu container">
+            <a href="index.html" class="logo">Inicio</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+              <img src="img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+              <ul>
+                <li><a style="font-family: Verdana, Geneva, Tahoma, sans-serif;"href="index.html">Regresar</a></li>
+                <li><a style="font-family: Verdana, Geneva, Tahoma, sans-serif;"href="causascontaminacion.html">Siguiente</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
-    </nav>
-</div>
-<div class="contenido">
+      </header> 
+    <div class="contenido">
     <div class="texto-presentacion">
 <h1 style="color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif;"class="display-4">¿Que es la contaminacion?</h1>
   <p>La contaminación es la introducción de un agente contaminante, que puede ser líquido, sólido o gaseoso, en un medio natural. Por sus características químicas, estos agentes o elementos producen inestabilidad y dañan el funcionamiento del ecosistema.
     Los tipos de contaminantes son variados y afectan a diferentes medios como el agua, el aire o el suelo. Generalmente, la contaminación es producto de la actividad del hombre que interviene en la naturaleza, aunque también existen procesos naturales que expulsan al medio elementos que generan un desequilibrio en el ambiente.
-    </p>
+  </p><div class="img">
 
-    <div class="img">
+ 
     </div>
 
     <div class="texto-presentacion2">
